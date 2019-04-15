@@ -2,6 +2,9 @@ module.exports = {
     base: '/fe-book/',
     title: '东半球少女的梦的技术书',
     description: '前端,技术,JS',
+    head: [
+        ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ],
     themeConfig: {
         nav: [
             { text: 'js', link: '/doc-js/' },
