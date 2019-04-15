@@ -19,13 +19,14 @@ git commit -m 'deploy'
 git remote add origin https://github.com/wangyupo/fe-book.git
 git push -f origin master
 
-echo "静态页面推送完毕，开始更新vuePress..."
-
 cd -
 
-git checkout vuePress
+echo "静态页面推送完毕，开始更新vuePress..."
+
 git add .
 git commit -m 'feat: 更新vuePress'
+git checkout vuePress
+git merge master
 git push origin vuePress
 git checkout master
 
