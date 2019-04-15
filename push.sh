@@ -1,17 +1,32 @@
 #!/bin/sh
 
-echo "正在切换分支..."
+echo "开始打包静态页面..."
+
+# 确保脚本抛出遇到的错误
+set -e
+
+# 生成静态文件
+yarn build
+
+# 进入生成的文件夹
+cd docs/.vuepress/dist
+
+echo "静态页面打包完毕，开始推送..."
+
+git init
+git add -A
+git commit -m 'deploy'
+git remote add origin https://github.com/wangyupo/fe-book.git
+git push -f origin master
+
+echo "静态页面推送完毕，开始更新vuePress..."
+
+cd -
+
 git checkout vuePress
-echo "正在添加文件..."
 git add .
-echo -n "正在提交备注...，请填写备注（可空）"
-read remarks
-if [ ! -n "$remarks" ];then
-	remarks="feat: vue-press"
-fi
-git commit -m "$remarks"
-echo "正在开始提交代码..."
+git commit -m 'feat: 更新vuePress'
 git push origin vuePress
-echo "代码提交成功，正在切回master分支..."
 git checkout master
-echo "已切回master分支，正在关闭.1.."
+
+echo "vuePress更新完毕，正在关闭..."
