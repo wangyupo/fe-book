@@ -8,7 +8,6 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'js', link: '/doc-js/' },
-            // { text: 'css', link: '/doc-css/s' },
             { text: '博客', link: 'https://wangyupo.github.io/' }
         ],
         sidebar: {
@@ -21,12 +20,6 @@ module.exports = {
                     ]
                 },
             ],
-            // '/doc-css/': [
-            //     {
-            //         title: 'demo',
-            //         path: '/doc-js/',
-            //     },
-            // ],
         },
         lastUpdated: '上次更新',
     },
