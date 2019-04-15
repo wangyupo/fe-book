@@ -14,4 +14,4 @@ echo "正在开始提交代码..."
 git push origin vuePress
 echo "代码提交成功，正在切回master分支..."
 git checkout master
-echo "已切回master分支，正在关闭..."
+echo "已切回master分支，正在关闭.1.."
