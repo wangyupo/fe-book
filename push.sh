@@ -11,7 +11,7 @@ yarn build
 # 进入生成的文件夹
 cd docs/.vuepress/dist
 
-echo "静态页面打包完毕，开始推送..."
+echo "静态页面打包完毕，开始推送... "
 
 git init
 git add -A
