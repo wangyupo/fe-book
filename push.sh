@@ -15,7 +15,7 @@ printf -- '\n\033[34m 静态页面打包完毕，开始推送... \033[0m\n\n';
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploy' >&-
 git remote add origin https://github.com/wangyupo/fe-book.git
 git push -f origin master
 
