@@ -7,15 +7,15 @@ module.exports = {
     ],
     themeConfig: {
         nav: [
-            { text: 'js', link: '/doc-js/数组/' },
-            { text: 'ui', link: '/doc-ui/UI设计规范/' },
+            { text: 'js', link: '/doc-js/' },
+            { text: 'ui', link: '/doc-ui/' },
             { text: '博客', link: 'https://wangyupo.github.io/' }
         ],
         sidebar: {
             '/doc-js/': [
                 {
                     title: '数组',
-                    path: '/doc-js/数组',
+                    path: '/doc-js/数组/',
                     children: [
                         '/doc-js/数组/创建并填充长度为100的数组.md',
                         '/doc-js/数组/js拷贝数组的方法.md',
