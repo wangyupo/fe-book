@@ -39,8 +39,6 @@ yarn build
 
 主题配置看[这里](https://v1.vuepress.vuejs.org/zh/theme/default-theme-config.html)
 
-附：[官方文档](https://v1.vuepress.vuejs.org/zh/)
-
 ## 分支管理
 
 `master`分支作为`page`分支，设为`GitHub Pages`。
@@ -58,3 +56,9 @@ yarn build
 切回master分支
 
 详细的运行脚本自行参考`vuePress`分支下的`push.sh`。
+
+## 附录：
+
+1、[VuePress 1.x - 官方文档](https://v1.vuepress.vuejs.org/zh/)
+
+2、[VuePress 手摸手教你搭建一个类Vue文档风格的技术文档/博客](https://segmentfault.com/a/1190000016333850)
