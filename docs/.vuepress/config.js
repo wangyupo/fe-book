@@ -14,7 +14,7 @@ module.exports = {
             '/doc-js/': [
                 {
                     title: '数组',
-                    path: '/doc-js/',
+                    path: '/doc-js/数组',
                     children: [
                         '/doc-js/数组/创建并填充长度为100的数组.md',
                         '/doc-js/数组/js拷贝数组的方法.md',
