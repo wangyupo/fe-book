@@ -20,6 +20,7 @@ module.exports = {
                         '/doc-js/数组/js拷贝数组的方法.md',
                         '/doc-js/数组/树状数组递归删除.md',
                         '/doc-js/数组/数组排序.md',
+                        '/doc-js/数组/数组去重.md',
                     ]
                 },
             ],
