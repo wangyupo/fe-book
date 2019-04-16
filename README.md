@@ -7,10 +7,13 @@
 ```js
 # 安装vuepress
 yarn global add vuepress@next
+
 # 创建目录
 mkdir vue-press && cd vue-press
+
 # 初始化项目
 yarn init -y
+
 # 搭建目录结构
 vue-press
     ├─ docs
@@ -18,13 +21,16 @@ vue-press
     │  └─ .vuepress
     │     └─ config.js
     └─ package.json
+    
 # 配置package.json
 "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
 }
+
 # 运行
 yarn dev
+
 # 打包
 yarn build
 ```
@@ -45,9 +51,10 @@ yarn build
 
 结合`vue-press`提供的[部署脚本](https://v1.vuepress.vuejs.org/zh/guide/deploy.html#github-pages)，建立起自己的`push.sh`，每次发布规则如下：
 
-> 发布技术书
-切换vuePress分支
-提交vuePress
+> 发布技术书\
+切换vuePress分支\
+合并master\
+提交vuePress\
 切回master分支
 
 详细的运行脚本自行参考`vuePress`分支下的`push.sh`。
