@@ -2,7 +2,7 @@
 home: true
 heroImage: /logo.png
 actionText: 快速查看 →
-actionLink: /doc-js/数组/
+actionLink: /doc-js/
 features:
 - title: 多看
   details: 看什么看！看什么看！不看你能知道什么？多看！
