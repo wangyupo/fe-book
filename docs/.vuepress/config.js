@@ -7,7 +7,7 @@ module.exports = {
     ],
     themeConfig: {
         nav: [
-            { text: 'js', link: '/doc-js/数组' },
+            { text: 'js', link: '/doc-js/数组/' },
             { text: '博客', link: 'https://wangyupo.github.io/' }
         ],
         sidebar: {
