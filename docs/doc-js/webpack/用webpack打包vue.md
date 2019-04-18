@@ -4,8 +4,6 @@ vue是什么？
 
 > vue就是一个渐进式 `JavaScript` 框架。
 
-既然是 `JavaScript` 框架，那再配合 `webpack` 打包使用，效率一定高。
-
 ### 准备工作
 
 首先我们需要一个基本的 `webpack` 打包的项目的 [架子](https://github.com/wangyupo/webpack-learn)。
