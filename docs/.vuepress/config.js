@@ -24,6 +24,13 @@ module.exports = {
                         '/doc-js/数组/数组去重.md',
                     ]
                 },
+                {
+                    title: 'webpack',
+                    path: '/doc-js/webpack/',
+                    children: [
+                        '/doc-js/webpack/做一个最简单的webpack打包项目.md',
+                    ]
+                }
             ],
             '/doc-ui/': [
                 {
