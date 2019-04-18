@@ -54,6 +54,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         filename: "main.js",
+         // path.resolve([from ...], to) 将to参数解析为绝对路径
         path: path.resolve(__dirname, 'dist')
     },
     devServer: {    // webpack开启node服务
