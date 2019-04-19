@@ -4,7 +4,7 @@
 提示：本文webpack版本为4.30.0
 :::
 
-## 一、搭建项目
+### 搭建项目
 
 项目的`基本结构`为：
 
@@ -34,7 +34,7 @@ yarn add webpack webapck-cli webpack-dev-server -D
 
 > 如果你看到了这里，并且成功的在 `dist`目录下打包出了 `main.js` ，那么恭喜你，你成功的做出了一个用webpack打包的项目。
 
-## 二、配置webpack
+### 配置webpack
 
 在这里我们需要几个 `webpack插件`，命令行执行：
 
