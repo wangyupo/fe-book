@@ -24,6 +24,8 @@ module.exports = {
                         '/doc-js/数组/数组去重.md',
                         '/doc-js/数组/两个数组取相同项.md',
                         '/doc-js/数组/展开嵌套数组.md',
+                        '/doc-js/数组/数组去除无效值.md',
+                        '/doc-js/数组/获取数组中的最大、最小值.md',
                     ]
                 },
                 {
