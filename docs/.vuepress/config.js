@@ -44,6 +44,7 @@ module.exports = {
                     // path: '/doc-js/知识点/',
                     children: [
                         '/doc-js/知识点/JS的防抖与节流.md',
+                        '/doc-js/知识点/call和apply的区别.md',
                     ]
                 }
             ],
