@@ -5,6 +5,9 @@ module.exports = {
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
+    markdown: {
+        lineNumbers: true
+    },
     themeConfig: {
         nav: [
             { text: 'js', link: '/doc-js/' },
@@ -34,6 +37,13 @@ module.exports = {
                     children: [
                         '/doc-js/webpack/做一个最简单的webpack打包项目.md',
                         '/doc-js/webpack/用webpack打包vue.md',
+                    ]
+                },
+                {
+                    title: '知识点',
+                    // path: '/doc-js/知识点/',
+                    children: [
+                        '/doc-js/知识点/JS的防抖与节流.md',
                     ]
                 }
             ],
@@ -71,7 +81,4 @@ module.exports = {
         },
         lastUpdated: '上次更新',
     },
-    markdown: {
-        lineNumbers: true
-    }
 }
