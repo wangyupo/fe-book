@@ -47,6 +47,13 @@ module.exports = {
                         '/doc-js/知识点/JS的防抖与节流.md',
                         '/doc-js/知识点/call和apply的区别.md',
                     ]
+                },
+                {
+                    title: '即拿即用',
+                    // path: '/doc-js/知识点/',
+                    children: [
+                        '/doc-js/即拿即用/input框只能输入数字.md',
+                    ]
                 }
             ],
             '/doc-css/': [
