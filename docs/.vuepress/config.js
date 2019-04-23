@@ -11,6 +11,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'js', link: '/doc-js/' },
+            { text: 'css', link: '/doc-css/' },
             { text: 'ui', link: '/doc-ui/' },
             { text: '博客', link: 'https://wangyupo.github.io/' }
         ],
@@ -45,6 +46,21 @@ module.exports = {
                     children: [
                         '/doc-js/知识点/JS的防抖与节流.md',
                         '/doc-js/知识点/call和apply的区别.md',
+                    ]
+                }
+            ],
+            '/doc-css/': [
+                {
+                    title: 'css',
+                    children: [
+                        '/doc-css/',
+                        '/doc-css/IOS滑动不流畅.md',
+                        '/doc-css/css省略号.md',
+                        '/doc-css/css写出中间粗两头细的线.md',
+                        '/doc-css/nth-child无效.md',
+                        '/doc-css/如何用scss写css？.md',
+                        '/doc-css/移动端一像素边框.md',
+                        '/doc-css/css字体平滑.md',
                     ]
                 }
             ],
