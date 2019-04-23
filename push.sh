@@ -26,7 +26,7 @@ printf -- '\n\033[34m 静态页面推送完毕，开始更新vuePress... \033[0m
 git add .
 git commit -m 'feat: 更新vuePress' >&-
 git checkout vuePress
-git merge master
+git merge master >&-
 git push origin vuePress
 git checkout master
 
