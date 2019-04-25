@@ -34,7 +34,7 @@ module.exports = {
                 },
                 {
                     title: 'webpack',
-                    path: '/doc-js/webpack/',
+                    // path: '/doc-js/webpack/',
                     children: [
                         '/doc-js/webpack/做一个最简单的webpack打包项目.md',
                         '/doc-js/webpack/用webpack打包vue.md',

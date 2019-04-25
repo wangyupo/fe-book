@@ -40,7 +40,7 @@
 
 如果还是不能完全体会 `debounce` 和 `throttle` 的差异，可以到 [这个页面](http://demo.nimius.net/debounce_throttle/) 看一下两者可视化的比较。
 
-<img src="/节流与防抖.jpg"  />
+<img src="../../.vuepress/public/节流与防抖.jpg"  />
 
 ### 三、实现
 
